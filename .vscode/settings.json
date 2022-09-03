@@ -27,5 +27,25 @@
     "python.formatting.provider": "yapf",
     "[json]": {
 	    "editor.formatOnSave": false
-    }
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#5bdbca",
+        "activityBar.background": "#5bdbca",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#c448d7",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#15202b99",
+        "sash.hoverBorder": "#5bdbca",
+        "statusBar.background": "#31d2bc",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#25ab98",
+        "statusBarItem.remoteBackground": "#31d2bc",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#31d2bc",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#31d2bc99",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#31d2bc"
 }
