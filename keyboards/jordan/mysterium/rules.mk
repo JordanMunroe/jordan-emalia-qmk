@@ -23,3 +23,5 @@ OLED_ENABLE = yes
 OLED_DRIVER = SSD1306
 
 LAYOUTS = tkl_ansi
+
+WPM_ENABLE = yes
