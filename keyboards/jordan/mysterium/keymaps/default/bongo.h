@@ -352,12 +352,15 @@ void eval_anim_state(void)
 static void bongo_prep(void)
 {
     anim_state = Prep;
+    anim_timer = timer_read32();
 }
 
 static void bongo_tap(enum tap_sides direction)
 {
     shouldTap = true;
+    anim_state = Prep;
     tapDirection = direction;
+    anim_timer = timer_read32();
 }
 
 static void draw_bongo(bool minimal)
