@@ -130,4 +130,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define BOOTMAGIC_LITE_COLUMN 0
 
 #define OLED_DISPLAY_128X64
-#define OLED_UPDATE_INTERVAL 40
+#define OLED_UPDATE_INTERVAL 32

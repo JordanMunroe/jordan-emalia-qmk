@@ -3,7 +3,7 @@
 #define IDLE_FRAMES 5
 #define IDLE_TIMEOUT 750 // the amount of time it takes to return to idle
 #define TAP_FRAMES 2
-#define TAP_FRAME_DURATION 20
+#define TAP_FRAME_DURATION 5
 #define KEYS_SIZE 128 // the number of keys stored in the array that tracks keypresses; how many keys are on the board?
 
 enum anim_states
