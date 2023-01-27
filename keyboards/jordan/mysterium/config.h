@@ -33,8 +33,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 /*                         0   1   2   3   4  5   6   7   8   9   10  11  12  13  14  15  16  17*/
-#define MATRIX_ROW_PINS { C2, C3, C7, C4, C6, C5 }
-#define MATRIX_COL_PINS { A0, B0, A1, B1, A2, B2, A3, B3, A4, B4, A5, A6, A7, D6, D5, D1, D0, D7 }
+#define MATRIX_ROW_PINS        \
+    {                          \
+        C2, C3, C7, C4, C6, C5 \
+    }
+#define MATRIX_COL_PINS                                                        \
+    {                                                                          \
+        A0, B0, A1, B1, A2, B2, A3, B3, A4, B4, A5, A6, A7, D6, D5, D1, D0, D7 \
+    }
 
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW
@@ -74,7 +80,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEBOUNCE 5
 
 /* define if matrix has ghost (lacks anti-ghosting diodes) */
-//#define MATRIX_HAS_GHOST
+// #define MATRIX_HAS_GHOST
 
 /* number of backlight levels */
 
@@ -107,7 +113,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * power-up.
  *
  */
-//#define FORCE_NKRO
+// #define FORCE_NKRO
 
 /*
  * Feature disable options
@@ -115,15 +121,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
 /* disable debug print */
-//#define NO_DEBUG
+// #define NO_DEBUG
 
 /* disable print */
-//#define NO_PRINT
+// #define NO_PRINT
 
 /* disable action features */
-//#define NO_ACTION_LAYER
-//#define NO_ACTION_TAPPING
-//#define NO_ACTION_ONESHOT
+// #define NO_ACTION_LAYER
+// #define NO_ACTION_TAPPING
+// #define NO_ACTION_ONESHOT
 
 /* Bootmagic Lite key configuration */
 #define BOOTMAGIC_LITE_ROW 0
@@ -131,3 +137,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define OLED_DISPLAY_128X64
 #define OLED_UPDATE_INTERVAL 32
+
+#define DEBOUNCE 5

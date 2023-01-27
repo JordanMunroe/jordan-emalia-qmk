@@ -47,8 +47,6 @@
 // #define RGBLIGHT_EFFECT_RGB_TEST
 // #define RGBLIGHT_EFFECT_ALTERNATING
 // #define RGBLIGHT_EFFECT_TWINKLE
-#define RGBLIGHT_DEFAULT_VAL 0
-#define OLED_UPDATE_INTERVAL 16
 
 /* Optional encoder pins */
 // Encoders are defined in order. 1: B2 & B3, 2: B4 & B5, 3: D0 & D1, 4: D2 & D3

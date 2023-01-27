@@ -21,7 +21,7 @@ RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
 OLED_ENABLE = yes
 OLED_DRIVER = SSD1306
-
+DEBOUNCE_TYPE = sym_eager_pr
 LAYOUTS = tkl_ansi
 
 WPM_ENABLE = yes
