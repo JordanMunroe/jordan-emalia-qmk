@@ -49,6 +49,11 @@ oled_rotation_t oled_init_user(oled_rotation_t rotation)
     return OLED_ROTATION_180;
 }
 
+void keyboard_post_init_user(void)
+{
+    rgblight_setrgb(110, 0, 110);
+}
+
 bool process_record_user(uint16_t keycode, keyrecord_t *record)
 {
     if (record->event.pressed)
